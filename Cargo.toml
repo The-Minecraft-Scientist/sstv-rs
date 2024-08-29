@@ -1,0 +1,9 @@
+[package]
+name = "sstv-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+hound = "3.5.1"
+image = "0.25.2"
